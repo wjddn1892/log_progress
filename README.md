@@ -1,6 +1,7 @@
 # log_progress
 
 
+<code>
 def log_progress(sequence, every=None, size=None, name='Items'):
     from ipywidgets import IntProgress, HTML, VBox
     from IPython.display import display
