@@ -1,7 +1,9 @@
 # log_progress
 
 
-<code>
+### Code
+Just copy and paste it into your project:
+```python
 def log_progress(sequence, every=None, size=None, name='Items'):
     from ipywidgets import IntProgress, HTML, VBox
     from IPython.display import display
@@ -57,3 +59,4 @@ def log_progress(sequence, every=None, size=None, name='Items'):
             name=name,
             index=str(index or '?')
         )
+```
